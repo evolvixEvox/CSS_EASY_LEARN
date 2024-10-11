@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(255, 255, 255);
+    border-top: 10px solid black;
+    border-radius: 50%;
+    animation: rotate_animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: steps(50);
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate_animation {
+    from {
+        transform:rotate(0deg);
+    }to {
+        transform:rotate(360deg);
+    }
+}
+body {
+    margin:200px;
+    border: 2px solid black;
+}

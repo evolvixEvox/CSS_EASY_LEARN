@@ -1,0 +1,14 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 0px;
+    bottom: 0;
+    background-color: red;
+    background-image: url(images/tiger.jpeg);
+    background-size: contain;
+    z-index: 1;
+}
+* {
+    margin: 0;
+}
